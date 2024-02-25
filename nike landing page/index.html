@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nike landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#" class="logo"><img height="100px" src="logo.png" alt=""></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2>Where All <br> Athletes Belong</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, omnis explicabo natus molestiae minus aut reiciendis fuga excepturi ut officiis earum magni quaerat exercitationem, consequuntur ducimus recusandae asperiores dolores illum obcaecati sit suscipit ipsam blanditiis nesciunt. Nihil, velit ratione. Corporis.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="imgbox">
+                <img src="shoe1.png" class="nikeshoes">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="shoe1.png" onclick="imgslider('shoe1.png');changecirclecolor( 'rgb(72, 189, 173)') "></li>
+            <li><img  src="shoes2.png" onclick="imgslider('shoes2.png'); changecirclecolor('rgb(59, 59, 59)')"></li>
+            <li><img src="shoes3.png" onclick="imgslider('shoes3.png'); changecirclecolor('rgb(117, 9, 9)')"></li>
+            <li><img src="shoes4.png" onclick="imgslider('shoes4.png'); changecirclecolor('rgb(46, 114, 192)')"></li>
+            <li><img src="shoes5.png" onclick="imgslider('shoes5.png'); changecirclecolor('rgb(231, 144, 13)')"></li>
+        </ul>
+        <ul class="social">
+            <li><i class="fa-brands fa-twitter icon"></i></li>
+            <li><i class="fa-brands fa-instagram icon"></i></li>
+            <li><i class="fa-brands fa-facebook-f icon"></i></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>   
+     </script>
+</body>
+</html>
